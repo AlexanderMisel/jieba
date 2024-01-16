@@ -1,6 +1,6 @@
 jieba-newdict
 ========
-“结巴”中文分词是曾经最好的 Python 中文分词组件。本项目维护者不直接使用 jieba，而用的[自己魔改过的 deno-jieba](https://github.com/brynne8/deno-jieba)，这个魔改可以避免加载默认字典，只使用自定义字典。
+“结巴”中文分词是曾经最好的 Python 中文分词组件，但是词典文件太旧了，很多词性标注错误，很多新词无法正确分出来。本项目只维护一个文件，就是[dict.txt.big](./extra_dict/dict.txt.big)。本项目维护者不直接使用 jieba，而用的[自己魔改过的 deno-jieba](https://github.com/brynne8/deno-jieba)，这个魔改可以避免加载默认字典，只使用自定义字典。
 
 我大概是这样使用的：
 
